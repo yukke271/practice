@@ -1,0 +1,28 @@
+{
+  // エディタの自動保存の設定
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // 保存する同時に自動整形する
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Prettierの設定
+  "prettier.arrowParens": "always",
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": false,
+  "prettier.printWidth": 100,
+
+  // Prettierを使うファイル種類の例
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  }
+}
