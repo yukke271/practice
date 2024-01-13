@@ -15,7 +15,12 @@
   "prettier.singleQuote": false,
   "prettier.printWidth": 100,
 
-  // Prettierを使うファイル種類の例
+  // clippyの設定
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": ["--", "-A", "clippy::needless_return"],
+  
+  // 言語ごとの設定
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -23,6 +28,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.suggest.insertMode": "replace"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
