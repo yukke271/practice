@@ -1,3 +1,11 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "rust-lang.rust-analyzer"]
+  "recommendations": [
+    // 各種言語対応linter
+    "esbenp.prettier-vscode",
+
+    // Rust用
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml"
+  ]
 }
