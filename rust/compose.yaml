@@ -9,5 +9,9 @@ services:
       - "8080:8080"
     volumes:
       - ./app:/app
+      - rust-target:/tmp/target
     tty: true
     stdin_open: true
+
+volumes:
+  rust-target:
