@@ -1,11 +1,18 @@
 {
   "recommendations": [
-    // 各種言語対応linter
-    "esbenp.prettier-vscode",
+    // code formatter
+    "editorconfig.editorconfig",
 
-    // Rust用
-    "rust-lang.rust-analyzer",
+    // CodeLLDB
+    "vadimcn.vscode-lldb",
+    
+    // toml
+    "tamasfe.even-better-toml",
+    
+    // create
     "serayuzgur.crates",
-    "tamasfe.even-better-toml"
+    
+    // Rust
+    "rust-lang.rust-analyzer",
   ]
 }
