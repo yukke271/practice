@@ -8,8 +8,8 @@
 
   // clippyの設定
   "rust-analyzer.checkOnSave": true,
-  "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.checkOnSave.command.extraArgs": ["--", "-A", "clippy::needless_return"],
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": ["--", "-A", "clippy::needless_return"],
 
   // 言語ごとの設定
   "[rust]": {
